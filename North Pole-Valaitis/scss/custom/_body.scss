@@ -1,0 +1,94 @@
+
+body{
+    background-color: $offwhite;
+    background-image: url("sandbackground.png");
+}
+
+
+.buttonred{
+    background-color: $red;
+    width: 20px 50px;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    color: $yellow;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+.buttonyellow{
+    background-color: $yellow;
+    width: 20px 50px;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    color: $dgreen;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.buttondg{
+    background-color: $dgreen;
+    width: 20px 50px;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    color: $offwhite;
+    padding: 5px;
+    margin: 5px;
+}
+
+.buttonbrown{
+    background-color: $brown;
+    width: 20px 50px;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    color: $dgreen;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.buttonlg{
+    background-color: $lgreen;
+    width: 20px 50px;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    color: $dgreen;
+    padding: 5px;
+    margin: 5px;
+}
+.squaredg{
+    background-color: $dgreen;
+    border-radius: 20px;
+}
+
+.squarelg{
+    background-color: $lgreen;
+    border-radius: 20px;
+}
+
+.squarered{
+    background-color: $red;
+    border-radius: 20px;
+}
+
+.squarebrown{
+    background-color: $brown;
+    border-radius: 20px;
+}
+
+.squaresand{
+    background-color: $offwhite;
+    border-radius: 20px;
+    
+}
+
+.squareyellow{
+    background-color: $yellow;
+    border-radius: 20px;
+}
+
+.squareblue{
+    background-color: $blue;
+    border-radius: 20px;
+}
