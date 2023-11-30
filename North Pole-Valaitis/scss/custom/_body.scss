@@ -13,6 +13,7 @@ body{
     color: $yellow;
     padding: 5px;
     margin: 5px;
+    font-family: 'crimsonregular'
     
 }
 
@@ -24,6 +25,7 @@ body{
     color: $dgreen;
     padding: 5px;
     margin: 5px;
+    font-family: 'crimsonregular'
 }
 
 
@@ -35,6 +37,7 @@ body{
     color: $offwhite;
     padding: 5px;
     margin: 5px;
+    font-family: 'crimsonregular'
 }
 
 .buttonbrown{
@@ -45,6 +48,7 @@ body{
     color: $dgreen;
     padding: 5px;
     margin: 5px;
+    font-family: 'crimsonregular'
 }
 
 
@@ -56,10 +60,12 @@ body{
     color: $dgreen;
     padding: 5px;
     margin: 5px;
+    font-family: 'crimsonregular'
 }
 .squaredg{
     background-color: $dgreen;
     border-radius: 20px;
+    
 }
 
 .squarelg{
@@ -103,24 +109,137 @@ p a{
     text-decoration: none;
 }
 
+.title{
+    font-size: 6rem;
+    padding-top: 2rem;
+    color: $lgreen;
+}
 
+.textblue{
+    color: $blue;
+}
 
+.textred{
+    color: $red;
+}
 
+.textlgreen{
+    color: $lgreen;
+}
 
+.textdgreen{
+    color: $dgreen;
+}
 
-
-
-
-
-
-
-h1{
-    font-family: 'brown_cakeregular'
+.textyellow{
+    color: $yellow;
 }
 
 
 
+h1{
+    font-family: 'brown_cakeregular';
+    font-size: 8rem;
+}
 
+h2{
+    font-family: 'brown_cakeregular';
+    font-size: 4rem;
+}
+
+p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.bodyheavy{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+h3{
+    font-family: 'floriesregular';
+}
+
+
+
+.placestostay{
+    flex-grow: 1;
+}
+ 
+.header{
+    p{
+        font-size: 1.5rem;
+    }
+}
+.snowstory{
+    p{
+        padding-top: 2rem;
+        margin-right: 20px;
+        font-size: 23px;
+        margin-bottom: 10rem;
+    }
+}
+
+// .snowstory ul{
+//     li{
+//         list-style-type:none;
+//         position:relative;
+//     }
+
+//     li:before{
+//         top:0.37em;
+//         background:black;
+//         width:0.5em;
+//         height:0.5em;
+//         position:absolute;
+//         border-radius:50%;
+//         left:-0.8em;
+        
+//     }
+
+//     li:nth-child(1){
+//         background-color: $red;
+//       }
+//       li:nth-child(2) {
+//         background-color: $dgreen;
+//       }
+//       li:nth-child(3) {
+//         color: $blue;
+//       }
+//       li:nth-child(4) {
+//         color: $brown;
+//       }
+//       li:nth-child(5) {
+//         color: $yellow;
+//       }
+//       li:nth-child(6) {
+//         color: $lgreen;
+//       }
+      
+// }
+
+nav{
+    
+    p{
+        font-size: 20px;
+        color: $red;
+        text-decoration: none;
+        font-family: 'crimsonregular';
+        text-align: center;
+    }
+
+    p:hover{
+        color: $dgreen !important;
+        border-bottom: $red 1px solid;
+    }
+    img{
+        align-items: center;
+        margin: 0 auto;
+    }
+}
 
 
 
