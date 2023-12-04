@@ -135,6 +135,9 @@ p a{
     color: $yellow;
 }
 
+.textbrown{
+    color: $brown;
+}
 
 
 h1{
@@ -160,7 +163,13 @@ p{
 }
 
 h3{
+    font-family: 'crimsonregular';
+}
+
+.writing{
     font-family: 'floriesregular';
+    font-size: 35px;
+    margin-top: 3rem;
 }
 
 
@@ -186,45 +195,40 @@ h3{
     }
 }
 
-// .snowstory ul{
-//     li{
-//         list-style-type:none;
-//         position:relative;
-//     }
+.bottom{
+    overflow-x: hidden;
+}
 
-//     li:before{
-//         top:0.37em;
-//         background:black;
-//         width:0.5em;
-//         height:0.5em;
-//         position:absolute;
-//         border-radius:50%;
-//         left:-0.8em;
-        
-//     }
 
-//     li:nth-child(1){
-//         background-color: $red;
-//       }
-//       li:nth-child(2) {
-//         background-color: $dgreen;
-//       }
-//       li:nth-child(3) {
-//         color: $blue;
-//       }
-//       li:nth-child(4) {
-//         color: $brown;
-//       }
-//       li:nth-child(5) {
-//         color: $yellow;
-//       }
-//       li:nth-child(6) {
-//         color: $lgreen;
-//       }
+.reindeer ul{
+ list-style: none;
+
+     li::before {content: "•"; color: red;
+        display: inline-block; width: 1em;
+        margin-left: -1em}
       
-// }
-
+     li:nth-child(1){
+         background-color: $red;
+       }
+       li:nth-child(2) {
+         background-color: $dgreen;
+       }
+       li:nth-child(3) {
+         color: $blue;
+       }
+       li:nth-child(4) {
+         color: $brown;
+       }
+       li:nth-child(5) {
+         color: $yellow;
+       }
+       li:nth-child(6) {
+         color: $lgreen;
+       }
+    
+}
 nav{
+    
     
     p{
         font-size: 20px;
@@ -238,10 +242,16 @@ nav{
         color: $dgreen !important;
         border-bottom: $red 1px solid;
     }
+
     img{
         align-items: center;
         margin: 0 auto;
     }
+}
+
+.active{
+    color: $dgreen !important;
+    border-bottom: $red 1px solid;
 }
 
 
