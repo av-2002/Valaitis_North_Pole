@@ -1,0 +1,89 @@
+.custom-button{
+    width: 100%;
+    max-width:70%;
+    border-radius: 10px 0px 10px 0px;
+    text-align: center;
+    padding: 5px;
+    margin: 16px auto;
+}
+
+.custom-grid{
+    display:grid;
+}
+.custom-grid.four-columns{
+    grid-template-columns: 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+.custom-grid.three-columns{
+    grid-template-columns: 1fr;
+    column-gap: 16px;
+    row-gap: 16px;
+}
+
+@media (min-width: 768px) {
+    .custom-grid.four-columns{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .custom-grid.three-columns{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+  }
+.custom-cards{
+    a{
+        border-radius: 20px;
+        text-decoration: none;
+        position: relative;
+    }
+    a:hover{
+        transform: scale(1.0125);
+    }
+    img{
+        width: 100%;
+    }
+    .img-container{
+        width: 100%;
+        max-width:200px;
+        height: auto;
+        margin: 0px auto;
+    }
+    .custom-button{
+        width: 100%;
+        max-width:70%;
+        border-radius: 10px 0px 10px 0px;
+        text-align: center;
+        padding: 5px;
+        margin: 16px auto;
+        position: absolute;
+        bottom: 0px;
+        left:15%;
+    }
+}
+.custom-cards-container{
+    padding:64px 24px 24px 24px;
+    margin-bottom:64px;
+}
+.elfhut-small{
+    padding-top:156px;
+}
+
+// Custom Color Helper Classes
+.bg-dgreen{
+    background-color: $dgreen;
+}
+.bg-lgreen{
+    background-color: $lgreen;
+}
+.bg-red{
+    background-color: $red;
+}
+.bg-blue{
+    background-color: $blue;
+}
+.bg-sand{
+    background-color: $offwhite;
+}
+.bg-yellow{
+    background-color: $yellow;
+}
+
